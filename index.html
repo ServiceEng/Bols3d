@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="btns">
+            <button class="round-btn" onclick="setOrbit('-6.314601233715477rad 1.4844025288211773rad 0.28205826610931195m')">Front</button>
+            <button class="round-btn" onclick="setOrbit('-9.424777960769381rad 0.007854981633974483rad 78.52850471136547m')">Top</button>
+            <button class="round-btn" onclick="setOrbit('-6.2753313255456025rad 3.141591653589793rad 0.3319997565710375m')">Bottom</button>
+            <button class="round-btn" onclick="setOrbit('3.686282702997496rad 0.9896006858807924rad 60.964786574533846m')">Left</button>
+            <button class="round-btn" onclick="setOrbit('-3.762057202673743rad 1.036724575684639rad 61.98267646580742m')">Rigth</button>
+          </div>
+        
+          <button id="orbit-btn" onClick="getOrbit()">Get Orbit</button>
+        
+                        <model-viewer id="canon" src="assets/Bolster.glb" camera-controls touch-action="pan-y" shadow-intensity="1" min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 180deg auto" interaction-prompt="none">
+                            <button class="Hotspot" slot="hotspot-1" data-position="-19.910351605369403m 8.613812717903421m 0.001216421071546847m" data-normal="0m 0.9999999999999911m 1.343588610839583e-7m" data-visibility-attribute="visible">
+                                <div class="HotspotAnnotation">50%</div>
+                            </button><button class="Hotspot" slot="hotspot-3" data-position="19.723574699550618m 8.078222556294179m -2.797300314537172m" data-normal="0m -0.6087613662135665m -0.7933533884756478m" data-visibility-attribute="visible">
+                                <div class="HotspotAnnotation">10%</div>
+                            </button><button class="Hotspot" slot="hotspot-4" data-position="22.890342989949104m 6.424887551369814m 4.863311478325613m" data-normal="0.9446737239710441m -4.407125383712812e-8m 0.32801151692993613m" data-visibility-attribute="visible">
+                                <div class="HotspotAnnotation">10%</div>
+                            </button><button class="Hotspot" slot="hotspot-5" data-position="12.407470062678259m 8.771312686687729m 0.18455068293079135m" data-normal="0m 0.9999999999999911m 1.343588610839583e-7m" data-visibility-attribute="visible">
+                                <div class="HotspotAnnotation">10%</div>
+                            </button><button class="Hotspot" slot="hotspot-6" data-position="8.432694660496123m 2.3754285312302725m 2.1899745660056245m" data-normal="0.3649609445761445m -0.9310228294376423m -1.2509116700640705e-7m" data-visibility-attribute="visible">
+                                <div class="HotspotAnnotation">10%</div>
+                            </button>
+                            <div class="progress-bar hide" slot="progress-bar">
+                                <div class="update-bar"></div>
+                            </div>    
+                        </model-viewer>
+          
+          
+
+    </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
