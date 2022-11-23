@@ -13,10 +13,9 @@ model-viewer{
 
   position:absolute;
   width: 100px;
-  height: 20px
+  height: 20px;
   margin: 0px 10px;
   top: 2%;
-  
 }
 .round-btn{
 		
@@ -140,8 +139,8 @@ model-viewer{
 
     .btns{
         position:absolute;
-        width: 50px;
-        height: 20px
+        width: 65px;
+        height: 20px;
         margin: 0px 5px;
         top: 2%;
      
@@ -157,8 +156,8 @@ model-viewer{
         border-radius: 10%;
         margin:2px 3px;
         color: #fff;
-        font-size: 10px;
-        background-color: #000;
+        font-size: 8px;
+        background-color: rgb(7, 3, 70);
         transition: transform 250ms;
     }
 
