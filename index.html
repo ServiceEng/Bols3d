@@ -12,18 +12,18 @@
 
     <main>
         <div class="btns">
-            <button class="round-btn" onclick="setOrbit('-6.283185307179578rad 1.374446785945535rad 100.15997294861347m')">Front</button>
+            <button class="round-btn" onclick="setOrbit('-6.283185307179578rad 1.5719183241711794rad 100.15997294861347m')">Front</button>
             <button class="round-btn" onclick="setOrbit('-9.424777960769381rad 0.007854981633974483rad 90.15455943456095m')">Top</button>
             <button class="round-btn" onclick="setOrbit('-6.2753313255456025rad 3.141591653589793rad 93.48895064639613m')">Bottom</button>
-            <button class="round-btn" onclick="setOrbit('3.882632243846857rad 1.0288705940506646rad 67.8262770147463m')">Left</button>
-            <button class="round-btn" onclick="setOrbit('-3.8248890557455386rad 1.0053086491487413rad 70.6553215202837m')">Rigth</button>
+            <button class="round-btn" onclick="setOrbit('3.882632243846857rad 1.0288705940506646rad 80.84361488091402m')">Left</button>
+            <button class="round-btn" onclick="setOrbit(' -3.8248890557455386rad 1.0053086491487413rad 88.49820071707609m')">Rigth</button>
           </div>
         
           <button id="orbit-btn" onClick="getOrbit()">Get Orbit</button>
         
-                        <model-viewer id="canon" src="assets/Bolster.glb" camera-controls touch-action="pan-y" shadow-intensity="1" min-camera-orbit="auto 0deg auto" max-camera-orbit="auto 180deg auto" interaction-prompt="none">
+                        <model-viewer id="canon" src="assets/Bolster.glb" camera-controls touch-action="pan-y" shadow-intensity="1" min-camera-orbit="auto 0deg 1.0m" min-field-of-view="1deg"  max-camera-orbit="auto 180deg auto" interaction-prompt="none">
                             <button class="Hotspot" slot="hotspot-1" data-position="-19.910351605369403m 8.613812717903421m 0.001216421071546847m" data-normal="0m 0.9999999999999911m 1.343588610839583e-7m" data-visibility-attribute="visible">
-                                <div class="HotspotAnnotation">50%</div>
+                                <div class="HotspotAnnotation2">50%</div>
                             </button><button class="Hotspot" slot="hotspot-3" data-position="19.723574699550618m 8.078222556294179m -2.797300314537172m" data-normal="0m -0.6087613662135665m -0.7933533884756478m" data-visibility-attribute="visible">
                                 <div class="HotspotAnnotation">10%</div>
                             </button><button class="Hotspot" slot="hotspot-4" data-position="22.890342989949104m 6.424887551369814m 4.863311478325613m" data-normal="0.9446737239710441m -4.407125383712812e-8m 0.32801151692993613m" data-visibility-attribute="visible">
