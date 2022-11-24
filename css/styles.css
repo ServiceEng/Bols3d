@@ -75,6 +75,18 @@ header .imagen{
 	height: 400px;
 }
 
+.imagen2 {
+	width: 100%;
+}
+
+h1{
+	font-weight: 900;
+	margin: 30px auto;
+	text-align: center;
+}
+.imagen2_nom{
+	width: 100%;
+}
 
 model-viewer{
     width: 80%;
