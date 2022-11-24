@@ -1,8 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	
+}
 
 main {
-    width: 100%;
-    
+    width: 100%; 
 }
+
+header{
+	width: 15%;
+	height: 50px;
+	position: absolute;
+}
+
+.container__menu{
+	width: 100%;
+	height: 40px;
+}
+
+.menu{
+	margin: 0 auto;
+	padding: 0;
+}
+
+nav > ul > li {
+	position: relative;
+	margin-left: -30px;
+	list-style: none;
+}
+
+nav > ul > li > a{
+	height: 50px;
+	padding: 5px;
+	background-color: rgb(7, 3, 70);
+	border-radius: 5px;
+	font-size: .5em;
+	font-weight: 900;
+	transition: all 300ms ease;
+	color: #fff;
+}
+
+nav > ul > li > a:hover{
+	transform: scale(1.1);
+	background-color: rgb(31, 166, 255);
+	color: #fff;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+nav ul li ul{
+	width: 610%;
+	height: 370px;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 80px;
+	top: -18px;
+	padding: 14px 0px;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 10;
+	list-style: none;
+}
+
+nav ul:hover ul{
+	visibility: visible;
+	opacity: 1;
+}
+
+header .imagen{
+	width: 100%;
+}
+
+
 model-viewer{
     width: 80%;
     height: 800px;
@@ -15,7 +87,7 @@ model-viewer{
   width: 100px;
   height: 20px;
   margin: 0px 10px;
-  top: 2%;
+  top: 15%;
 }
 .round-btn{
 		
@@ -86,7 +158,7 @@ model-viewer{
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
 	color: rgba(0, 0, 0, 0.8);
 	display: block;
-	font-family: Futura, Helvetica Neue, sans-serif;
+	
 	font-size: 13px;										/*Cambio de tamñano en texto o numeros hotspot*/
 	font-weight: 700;
 	left: calc(100% + 1em);
@@ -160,7 +232,7 @@ model-viewer{
         width: 65px;
         height: 20px;
         margin: 0px 5px;
-        top: 2%;
+        top: 15%;
      
     }
     
@@ -191,7 +263,7 @@ model-viewer{
         width: 65px;
         height: 20px;
         margin: 0px 5px;
-        top: 2%;
+        top: 15%;
      
     }
     
