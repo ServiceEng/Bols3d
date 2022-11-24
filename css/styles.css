@@ -70,14 +70,14 @@ model-viewer{
 }
 
 .Hotspot {
-	background: rgb(250, 234, 5);
+	background: rgb(7, 3, 70);
 	border-radius: 20px;
 	border: 0;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
 	box-sizing: border-box;
 	cursor: pointer;
-	height: 5px;
-	padding: px;
+	height: 4px;
+	padding: 4px;
 	position: relative;
 	transition: opacity 0.3s;
 	width: 5px;
@@ -110,7 +110,6 @@ model-viewer{
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
 	color: rgba(0, 0, 0, 0.8);
 	display: block;
-	
 	font-size: 13px;										/*Cambio de tamñano en texto o numeros hotspot*/
 	font-weight: 700;
 	left: calc(100% + 1em);
