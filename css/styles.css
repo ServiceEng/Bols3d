@@ -88,10 +88,11 @@ model-viewer{
 	padding: 4px;
 	position: relative;
 	transition: opacity 0.3s;
-	width: 5px;
+	width: 4px;
 }
 
 .Hotspot2 {
+	display: none;
 	background: transparent;
 	border-radius: 20px;
 	border: 0;
